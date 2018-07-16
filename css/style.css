@@ -1,0 +1,38 @@
+body {
+    margin: 1rem;
+  }
+  
+  #navbar {
+    position: fixed;
+  }
+  
+  li {
+    padding: 1rem;
+  }
+  
+  .code-block {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #first-heading {
+    padding-top: 2rem;
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .navbar {
+      top: 0;
+      left: 0;
+    }
+  }
+  
+  #main-doc {
+    width: 70vw;
+    margin-left: 15vw;
+  }
