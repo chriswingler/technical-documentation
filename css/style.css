@@ -2,12 +2,13 @@ body {
     margin: 1rem;
   }
   
-  #navbar {
+  /* #navbar {
     position: fixed;
-  }
+  } */
   
   li {
     padding: 1rem;
+    font-size: 8vw;
   }
   
   .code-block {
@@ -26,9 +27,15 @@ body {
   }
   
   @media only screen and (min-width: 900px) {
-    .navbar {
+    /* .navbar {
       top: 0;
       left: 0;
+    } */
+  }
+
+  @media only screen and (max-width: 899px) {
+    #main-doc {
+      margin-top: -10vh;
     }
   }
   
